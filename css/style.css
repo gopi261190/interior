@@ -1,0 +1,590 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quattrocento', serif;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 15px;
+}
+
+/*banner-start*/
+
+.shape {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 22%;
+}
+
+.navigation {
+    max-width: 1200px;
+    position: relative;
+    margin: 0 auto;
+    padding: 10px 10px;
+}
+
+.logo {
+    width: 150px;
+   
+}
+
+.navigation ul {
+    float: right;
+    padding-left: 0;
+}
+
+.navigation ul li {
+    float: left;
+    list-style: none;
+    padding: 0px 23px;
+    padding-top: 5px;
+    font-weight: 700;
+}
+
+.pink a {
+    color: rgb(235, 54, 86);
+    padding-left: 0;
+}
+
+.icon {
+    float: right;
+    display: none;
+    margin: 8px 0px 0px 0px;
+    background-color: transparent;
+    border: none;
+}
+
+a {
+    color: rgb(99, 97, 97);
+    text-decoration: none;
+}
+
+.fa {
+    font-size: 30px;
+    color: #000;
+}
+
+.banner {
+    width: 100%;
+    position: relative;
+}
+
+.left-banner {
+    width: 50%;
+    float: left;
+    position: absolute;
+    left: 80px;
+    padding-top: 18%;
+}
+
+.left-banner h4 {
+    color: rgb(235, 54, 86);
+    font-size: 1.5rem;
+}
+
+.left-banner h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    color: rgb(32, 32, 32);
+}
+
+.banner-shape {
+    padding-left: 42%;
+    padding-top: 11%;
+    width: 90%;
+}
+
+.banner-color {
+    color: rgb(235, 54, 86);
+}
+
+.right-banner {
+    width: 60%;
+    float: right;
+    z-index: 1;
+}
+
+.banner-image {
+    width: 100%;
+}
+
+/*section-two*/
+
+.two-section {
+    max-width: 1200px;
+    padding: 100px 0px;
+    margin: 0 auto;
+}
+
+.two-section .left-box {
+    width: 50%;
+    float: left;
+    position: relative;
+    padding-left: 20px;
+}
+
+.section-image {
+    width: 50%;
+    position: absolute;
+    z-index: 0;
+}
+
+.section-image1 {
+    width: 50%;
+    position: absolute;
+    left: 80px;
+    top: 175px;
+    z-index: -1;
+}
+
+.section-image2 {
+    width: 50%;
+    position: absolute;
+    top: 240px;
+    left: 150px;
+    z-index: 1;
+}
+
+.two-section .right-box {
+    width: 50%;
+    float: right;
+    padding-right: 20px;
+}
+
+.two-section .right-box h4 {
+    color: rgb(235, 54, 86);
+    font-size: 1.7rem;
+    margin-bottom: 15px;
+}
+
+.right-box h2 {
+    font-size: 2.5rem;
+    margin-top: 0;
+}
+
+.right-box p {
+    font-size: 1.2rem;
+    line-height: 30px;
+    color: rgb(100, 99, 99);
+    font-family: 'Hind', sans-serif;
+}
+
+.right-box button {
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: rgb(235, 54, 86);
+    color: #fff;
+    font-size: 1rem;
+    box-shadow: 2px 2px 20px 2px rgb(158, 155, 155);
+}
+
+/*section-two end*/
+
+/*six-section start*/
+
+.full-qoute {
+    width: 100%;
+    background-color: #fff8fa;
+    padding: 100px 0px;
+}
+
+.six-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.six-section h4 {
+    font-size: 1.7rem;
+    color: rgb(235, 54, 86);
+    margin-bottom: 15px;
+}
+
+.six-section h2 {
+    font-size: 2.5rem;
+    margin-top: 0;
+}
+
+.box {
+    width: 30%;
+    background-color: #fff;
+    float: left;
+    margin: 1.5% 1.5%;
+    padding: 40px 30px;
+    font-family: 'Hind', sans-serif;
+}
+
+.box h3 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: rgb(22, 22, 22);
+}
+
+.box p {
+    font-size: 1.1rem;
+    line-height: 25px;
+    color: gray;
+}
+
+.box .fa {
+    color: rgb(235, 54, 86);
+    font-size: 40px;
+}
+
+.favicon {
+    width: 40px;
+}
+
+/*six-section end*/
+
+/*five-section-start*/
+
+.five-section {
+    width: 100%;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.five-section h4 {
+    font-size: 1.7rem;
+    color: rgb(235, 54, 86);
+    margin-bottom: 15px;
+}
+
+.five-section h2 {
+    font-size: 2.5rem;
+    margin-top: 0;
+    padding-bottom: 50px;
+}
+
+.five-box {
+    width: 17%;
+    float: left;
+    margin: 0% 1.5%;
+}
+
+.five-image {
+    width: 100%;
+}
+
+.dase {
+    font-size: 40px;
+    color: rgb(235, 54, 86);
+    padding: 50px 5px;
+}
+
+/*five-section-end*/
+
+/*one-section-start*/
+
+.one-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../image/77.jpg");
+    padding: 70px 80px;
+}
+
+.review {
+    width: 30%;
+    padding: 50px 25px;
+    background-color: rgb(235, 54, 86);
+    text-align: center;
+    color: #fff;
+}
+
+.man {
+    width: 40%;
+    border-radius: 100%;
+}
+
+.review p {
+    padding-top: 20px;
+    font-size: 1.1rem;
+    line-height: 30px;
+}
+
+.review h3 {
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.review h4 {
+    margin: 0;
+    font-weight: 700;
+}
+
+/*one-saction-end*/
+
+/*login-form-start*/
+
+.login-form {
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    padding: 100px 0px;
+    background-color: #fff8fa;
+}
+
+.login-center {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.login-center h4 {
+    font-size: 1.7rem;
+    color: rgb(235, 54, 86);
+    margin-bottom: 15px;
+}
+
+.login-center h2 {
+    font-size: 2.5rem;
+    margin-top: 0;
+}
+
+.login-center .left {
+    width: 40%;
+    height: 50px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 6%;
+    padding-left: 30px;
+    background-color: #fff;
+    border: 1px solid rgb(221, 217, 217);
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.login-center .right {
+    width: 40%;
+    float: right;
+    height: 50px;
+    margin-top: 25px;
+    margin-right: 6%;
+    padding-left: 30px;
+    background-color: #fff;
+    border: 1px solid rgb(221, 217, 217);
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.login-center .message {
+    width: 88%;
+    height: 150px;
+    margin-top: 25px;
+    padding-left: 30px;
+    background-color: #fff;
+    border: 1px solid rgb(221, 217, 217);
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.login-form button {
+    margin-top: 50px;
+    width: 200px;
+    font-weight: 700;
+}
+
+/*login-form-end*/
+
+/*footer-start*/
+
+.footer {
+    width: 100%;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(236, 235, 235);
+    border: none;
+    margin: 0;
+}
+
+.footer-center {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.left-p {
+    float: left;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: rgb(100, 99, 99);
+}
+
+.social {
+    float: right;
+    font-size: 20px;
+    padding: 15px 15px;
+    border-radius: 100%;
+    color: rgb(100, 99, 99);
+    background-color: #fae4ea;
+    margin: 0px 5px;
+    box-shadow: 2px 2px 20px 2px rgb(250, 216, 223);
+}
+
+.social-f {
+    float: right;
+    font-size: 20px;
+    padding: 15px 20px;
+    border-radius: 100%;
+    color: rgb(100, 99, 99);
+    background-color: #fae4ea;
+    box-shadow: 2px 2px 20px 2px rgb(250, 216, 223);
+    margin: 0px 5px;
+}
+
+.login-form button {
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: rgb(235, 54, 86);
+    color: #fff;
+    font-size: 1rem;
+    box-shadow: 2px 2px 20px 2px rgb(158, 155, 155);
+}
+
+/*footer-end*/
+
+@media only screen and (max-width:900px) {
+    .left-banner {
+        padding-top: 10%;
+    }
+    .left-banner h1 {
+        font-size: 3.5rem;
+    }
+    .login-form button {
+        width: 180px;
+    }
+    .review {
+        width: 40%;
+    }
+    .banner-shape {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .navigation ul {
+        display: none;
+        position: absolute;
+        top: 50px;
+       
+    }
+    .icon {
+        display: block;
+    }
+    a {
+        color: black;
+    }
+    .left-banner {
+        width: 90%;
+        left: 20px;
+    }
+    .two-section .left-box {
+        width: 100%;
+    }
+    .section-image {
+        position: relative;
+    }
+    .section-image2 {
+        left: 40%;
+    }
+    .two-section .right-box {
+        width: 100%;
+        margin-top: 30%;
+        text-align: center;
+        padding: 0px 20px;
+    }
+    .box {
+        width: 80%;
+        margin: 0 auto;
+        float: none;
+        margin-top: 50px;
+    }
+    .five-box {
+        width: 80%;
+        margin: 0 auto;
+        float: none;
+        margin-top: 50px;
+    }
+
+    @media only screen and (max-width:600px){
+.right-banner{
+    width: 100%;
+    padding-top: 40px;
+}
+.left-banner h1{
+    font-size: 2.8rem;
+    padding-top: 10%;
+}
+.logo{
+    width: 130px;
+}
+.section-image1{
+    top: 110;
+}
+.section-image2{
+    top: 140px;
+}
+.two-section .right-box {
+    margin-top: 40%;
+}
+.full-qoute{
+    padding: 50px 0px;
+}
+.one-section{
+    padding: 50px;
+}
+.review{
+    width: 100%;
+}
+.login-form{
+    margin-top: 0;
+}
+.login-center .left{
+    width: 80%;
+    float: none;
+    margin-left: 0;
+}
+.login-center .right{
+    width: 80%;
+    float: none;
+    margin-right: 0;
+}
+.login-center .message{
+    width: 80%;
+}
+.footer-center{
+    text-align: center;
+
+}
+.left-p{
+    float: none;
+    font-size: 1rem;
+}
+.social{
+    float: none;
+    font-size: 1rem;
+}
+    
+.social-f{
+    float: none;
+    font-size: 1rem;
+}
+}
